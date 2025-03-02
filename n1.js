@@ -61,6 +61,23 @@
 // console.log(age>=18 ? "Eligible to vote" : "Not eligible to vote")
 
 
-var marks = 55
-var grade = (marks >= 90) ? "A+": (marks>80) ? "A" : (marks > 70)? "B" : (marks>60)? "c" :"FAIL";
-console.log(grade)
+// var marks = 55
+// var grade = (marks >= 90) ? "A+": (marks>80) ? "A" : (marks > 70)? "B" : (marks>60)? "c" :"FAIL";
+// console.log(grade)
+
+
+var arr=[2,3,5,7,]
+var obj={
+    even: 0,
+    odd:  0
+}
+arr.forEach(
+    function(value){
+        if(value%2==0){
+            obj.even+=1
+        }else{
+            obj.odd+=1
+        }
+    }
+)
+console.log(obj)
