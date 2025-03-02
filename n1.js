@@ -55,4 +55,12 @@
 // }
 
 
+//Ternary Operators : It is the simple way to find the results of the conditions and they are best alternative to if else, else if ladder
+// var age =15
 
+// console.log(age>=18 ? "Eligible to vote" : "Not eligible to vote")
+
+
+var marks = 55
+var grade = (marks >= 90) ? "A+": (marks>80) ? "A" : (marks > 70)? "B" : (marks>60)? "c" :"FAIL";
+console.log(grade)
