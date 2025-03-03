@@ -22,7 +22,7 @@
 
 // console.log(age>=18 ? "Eligible to vote" : "Not Eligible to vote")
 
-var marks=91
+// var marks=91
 // if(marks>=90){
 //     console.log("Result : A+")
 // }else if(marks>=80){
@@ -35,5 +35,21 @@ var marks=91
 //     console.log("Result : FAIL")
 // }
 
-var res=(marks >= 90) ? "A+": (marks>80) ?"A" : (marks > 70)? "B" : (marks>60)? "c" :"FAIL";
-console.log(res)
+// var res=(marks >= 90) ? "A+": (marks>80) ?"A" : (marks > 70)? "B" : (marks>60)? "c" :"FAIL";
+// console.log(res)
+
+var day=7
+switch(day){
+    case 1: console.log("Monday")
+    break
+    case 2: console.log("Tuesday")
+    break
+    case 3: console.log("Wednesday")
+    break
+    case 4: console.log("Thursday")
+    break
+    case 5: console.log("Friday")
+    break
+    case 6: console.log("Saturday")
+    break
+}
